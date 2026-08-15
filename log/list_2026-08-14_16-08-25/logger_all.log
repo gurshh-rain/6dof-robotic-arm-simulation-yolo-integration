@@ -1,0 +1,57 @@
+[0.307s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '--base-paths', '/home/gurshh/ur_ws/src']
+[0.307s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/gurshh/ur_ws/src'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=False, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7e9e78735000>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7e9e788ddd20>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7e9e788ddd20>>)
+[0.633s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.634s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.634s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.634s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.634s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.634s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/gurshh/ur_ws/src'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gurshh/ur_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gurshh/ur_ws/src) by extension 'ignore'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gurshh/ur_ws/src) by extension 'ignore_ament_install'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gurshh/ur_ws/src) by extensions ['colcon_pkg']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gurshh/ur_ws/src) by extension 'colcon_pkg'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gurshh/ur_ws/src) by extensions ['colcon_meta']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gurshh/ur_ws/src) by extension 'colcon_meta'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gurshh/ur_ws/src) by extensions ['ros']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gurshh/ur_ws/src) by extension 'ros'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gurshh/ur_ws/src) by extensions ['cmake', 'python']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gurshh/ur_ws/src) by extension 'cmake'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gurshh/ur_ws/src) by extension 'python'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gurshh/ur_ws/src) by extensions ['python_setup_py']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gurshh/ur_ws/src) by extension 'python_setup_py'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gurshh/ur_ws/src/Universal_Robots_ROS2_Description) by extensions ['ignore', 'ignore_ament_install']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gurshh/ur_ws/src/Universal_Robots_ROS2_Description) by extension 'ignore'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gurshh/ur_ws/src/Universal_Robots_ROS2_Description) by extension 'ignore_ament_install'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gurshh/ur_ws/src/Universal_Robots_ROS2_Description) by extensions ['colcon_pkg']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gurshh/ur_ws/src/Universal_Robots_ROS2_Description) by extension 'colcon_pkg'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gurshh/ur_ws/src/Universal_Robots_ROS2_Description) by extensions ['colcon_meta']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gurshh/ur_ws/src/Universal_Robots_ROS2_Description) by extension 'colcon_meta'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gurshh/ur_ws/src/Universal_Robots_ROS2_Description) by extensions ['ros']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gurshh/ur_ws/src/Universal_Robots_ROS2_Description) by extension 'ros'
+[0.657s] DEBUG:colcon.colcon_core.package_identification:Package '/home/gurshh/ur_ws/src/Universal_Robots_ROS2_Description' with type 'ros.ament_cmake' and name 'ur_description'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gurshh/ur_ws/src/Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gurshh/ur_ws/src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'ignore'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gurshh/ur_ws/src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'ignore_ament_install'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gurshh/ur_ws/src/Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['colcon_pkg']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gurshh/ur_ws/src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'colcon_pkg'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gurshh/ur_ws/src/Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['colcon_meta']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gurshh/ur_ws/src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'colcon_meta'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gurshh/ur_ws/src/Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['ros']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gurshh/ur_ws/src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'ros'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gurshh/ur_ws/src/Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['cmake', 'python']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gurshh/ur_ws/src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'cmake'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gurshh/ur_ws/src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'python'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gurshh/ur_ws/src/Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['python_setup_py']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gurshh/ur_ws/src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'python_setup_py'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gurshh/ur_ws/src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gurshh/ur_ws/src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extension 'ignore'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gurshh/ur_ws/src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extension 'ignore_ament_install'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gurshh/ur_ws/src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extensions ['colcon_pkg']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gurshh/ur_ws/src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extension 'colcon_pkg'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gurshh/ur_ws/src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extensions ['colcon_meta']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gurshh/ur_ws/src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extension 'colcon_meta'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gurshh/ur_ws/src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extensions ['ros']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gurshh/ur_ws/src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extension 'ros'
+[0.659s] DEBUG:colcon.colcon_core.package_identification:Package '/home/gurshh/ur_ws/src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo' with type 'ros.ament_cmake' and name 'ur_simulation_gazebo'
+[0.659s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

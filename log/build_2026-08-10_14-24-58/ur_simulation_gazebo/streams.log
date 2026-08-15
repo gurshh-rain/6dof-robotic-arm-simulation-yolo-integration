@@ -1,0 +1,29 @@
+[0.061s] Invoking command in '/home/gurshh/ur_ws/build/ur_simulation_gazebo': CMAKE_PREFIX_PATH=/home/gurshh/ur_ws/install/ur_description:/home/gurshh/ur_ws/install/ur_simulation_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/gurshh/ur_ws/build/ur_simulation_gazebo -- -j12 -l12
+[0.082s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.180s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.186s] -- Found launch_testing_ament_cmake: 1.0.14 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[0.186s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.205s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.205s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.205s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.206s] -- Found ament_cmake_pytest: 1.3.14 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[0.259s] -- Configuring done
+[0.263s] -- Generating done
+[0.264s] -- Build files have been written to: /home/gurshh/ur_ws/build/ur_simulation_gazebo
+[0.286s] Invoked command in '/home/gurshh/ur_ws/build/ur_simulation_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/gurshh/ur_ws/install/ur_description:/home/gurshh/ur_ws/install/ur_simulation_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/gurshh/ur_ws/build/ur_simulation_gazebo -- -j12 -l12
+[0.287s] Invoking command in '/home/gurshh/ur_ws/build/ur_simulation_gazebo': CMAKE_PREFIX_PATH=/home/gurshh/ur_ws/install/ur_description:/home/gurshh/ur_ws/install/ur_simulation_gazebo:/opt/ros/humble /usr/bin/cmake --install /home/gurshh/ur_ws/build/ur_simulation_gazebo
+[0.295s] -- Install configuration: ""
+[0.295s] -- Execute custom install script
+[0.296s] -- Up-to-date symlink: /home/gurshh/ur_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/config/moveit_controllers.yaml
+[0.296s] -- Up-to-date symlink: /home/gurshh/ur_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/config/ur_controllers.yaml
+[0.296s] -- Up-to-date symlink: /home/gurshh/ur_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/launch/ur_sim_control.launch.py
+[0.296s] -- Up-to-date symlink: /home/gurshh/ur_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/launch/ur_sim_moveit.launch.py
+[0.296s] [31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:105 (message):
+[0.297s]   ament_cmake_symlink_install_directory() can't find
+[0.297s]   '/home/gurshh/ur_ws/src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo/rviz'
+[0.297s] Call Stack (most recent call first):
+[0.297s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:319 (ament_cmake_symlink_install_directory)
+[0.297s]   cmake_install.cmake:46 (include)
+[0.297s] 
+[0.297s] [0m
+[0.298s] Invoked command in '/home/gurshh/ur_ws/build/ur_simulation_gazebo' returned '1': CMAKE_PREFIX_PATH=/home/gurshh/ur_ws/install/ur_description:/home/gurshh/ur_ws/install/ur_simulation_gazebo:/opt/ros/humble /usr/bin/cmake --install /home/gurshh/ur_ws/build/ur_simulation_gazebo

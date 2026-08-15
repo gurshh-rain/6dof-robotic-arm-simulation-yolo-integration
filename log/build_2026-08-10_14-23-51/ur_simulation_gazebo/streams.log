@@ -1,0 +1,54 @@
+[0.063s] Invoking command in '/home/gurshh/ur_ws/build/ur_simulation_gazebo': CMAKE_PREFIX_PATH=/home/gurshh/ur_ws/install/ur_description:/home/gurshh/ur_ws/install/ur_simulation_gazebo:/opt/ros/humble /usr/bin/cmake /home/gurshh/ur_ws/src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/gurshh/ur_ws/install/ur_simulation_gazebo
+[0.209s] -- The C compiler identification is GNU 11.4.0
+[0.798s] -- The CXX compiler identification is GNU 11.4.0
+[1.251s] -- Detecting C compiler ABI info
+[1.416s] -- Detecting C compiler ABI info - done
+[1.422s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.422s] -- Detecting C compile features
+[1.422s] -- Detecting C compile features - done
+[1.425s] -- Detecting CXX compiler ABI info
+[1.598s] -- Detecting CXX compiler ABI info - done
+[1.603s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.604s] -- Detecting CXX compile features
+[1.604s] -- Detecting CXX compile features - done
+[1.607s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.740s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.797s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.831s] -- Found launch_testing_ament_cmake: 1.0.14 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[1.833s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.001s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.601s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.601s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.601s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.601s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.621s] -- Found PythonExtra: .so  
+[2.623s] -- Found ament_cmake_pytest: 1.3.14 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[2.681s] -- Configuring done
+[2.688s] -- Generating done
+[2.690s] -- Build files have been written to: /home/gurshh/ur_ws/build/ur_simulation_gazebo
+[2.697s] Invoked command in '/home/gurshh/ur_ws/build/ur_simulation_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/gurshh/ur_ws/install/ur_description:/home/gurshh/ur_ws/install/ur_simulation_gazebo:/opt/ros/humble /usr/bin/cmake /home/gurshh/ur_ws/src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/gurshh/ur_ws/install/ur_simulation_gazebo
+[2.698s] Invoking command in '/home/gurshh/ur_ws/build/ur_simulation_gazebo': CMAKE_PREFIX_PATH=/home/gurshh/ur_ws/install/ur_description:/home/gurshh/ur_ws/install/ur_simulation_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/gurshh/ur_ws/build/ur_simulation_gazebo -- -j12 -l12
+[2.734s] Invoked command in '/home/gurshh/ur_ws/build/ur_simulation_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/gurshh/ur_ws/install/ur_description:/home/gurshh/ur_ws/install/ur_simulation_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/gurshh/ur_ws/build/ur_simulation_gazebo -- -j12 -l12
+[2.736s] Invoking command in '/home/gurshh/ur_ws/build/ur_simulation_gazebo': CMAKE_PREFIX_PATH=/home/gurshh/ur_ws/install/ur_description:/home/gurshh/ur_ws/install/ur_simulation_gazebo:/opt/ros/humble /usr/bin/cmake --install /home/gurshh/ur_ws/build/ur_simulation_gazebo
+[2.743s] -- Install configuration: ""
+[2.743s] -- Execute custom install script
+[2.745s] -- Symlinking: /home/gurshh/ur_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/config/moveit_controllers.yaml
+[2.754s] -- Symlinking: /home/gurshh/ur_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/config/ur_controllers.yaml
+[2.763s] -- Symlinking: /home/gurshh/ur_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/launch/ur_sim_control.launch.py
+[2.771s] -- Symlinking: /home/gurshh/ur_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/launch/ur_sim_moveit.launch.py
+[2.781s] -- Symlinking: /home/gurshh/ur_ws/install/ur_simulation_gazebo/share/ament_index/resource_index/package_run_dependencies/ur_simulation_gazebo
+[2.790s] -- Symlinking: /home/gurshh/ur_ws/install/ur_simulation_gazebo/share/ament_index/resource_index/parent_prefix_path/ur_simulation_gazebo
+[2.799s] -- Symlinking: /home/gurshh/ur_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/environment/ament_prefix_path.sh
+[2.807s] -- Symlinking: /home/gurshh/ur_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/environment/ament_prefix_path.dsv
+[2.818s] -- Symlinking: /home/gurshh/ur_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/environment/path.sh
+[2.826s] -- Symlinking: /home/gurshh/ur_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/environment/path.dsv
+[2.836s] -- Symlinking: /home/gurshh/ur_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/local_setup.bash
+[2.844s] -- Symlinking: /home/gurshh/ur_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/local_setup.sh
+[2.853s] -- Symlinking: /home/gurshh/ur_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/local_setup.zsh
+[2.863s] -- Symlinking: /home/gurshh/ur_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/local_setup.dsv
+[2.872s] -- Symlinking: /home/gurshh/ur_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.dsv
+[2.882s] -- Symlinking: /home/gurshh/ur_ws/install/ur_simulation_gazebo/share/ament_index/resource_index/packages/ur_simulation_gazebo
+[2.891s] -- Symlinking: /home/gurshh/ur_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/cmake/ur_simulation_gazeboConfig.cmake
+[2.900s] -- Symlinking: /home/gurshh/ur_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/cmake/ur_simulation_gazeboConfig-version.cmake
+[2.908s] -- Symlinking: /home/gurshh/ur_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.xml
+[2.921s] Invoked command in '/home/gurshh/ur_ws/build/ur_simulation_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/gurshh/ur_ws/install/ur_description:/home/gurshh/ur_ws/install/ur_simulation_gazebo:/opt/ros/humble /usr/bin/cmake --install /home/gurshh/ur_ws/build/ur_simulation_gazebo

@@ -1,0 +1,14 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/gurshh/ur_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/config/moveit_controllers.yaml
+-- Up-to-date symlink: /home/gurshh/ur_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/config/ur_controllers.yaml
+-- Up-to-date symlink: /home/gurshh/ur_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/launch/ur_sim_control.launch.py
+-- Up-to-date symlink: /home/gurshh/ur_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/launch/ur_sim_moveit.launch.py
+CMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:105 (message):
+  ament_cmake_symlink_install_directory() can't find
+  '/home/gurshh/ur_ws/src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo/rviz'
+Call Stack (most recent call first):
+  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:319 (ament_cmake_symlink_install_directory)
+  cmake_install.cmake:46 (include)
+
+

@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="overhead_camera">
+    <static>true</static>
+    <pose>0.65 0.0 1.5 0 1.5708 0</pose>
+    
+    <link name="camera_link">
+      <visual name="visual">
+        <geometry>
+          <box><size>0.05 0.05 0.05</size></box>
+        </geometry>
+        <material>
+          <ambient>0.1 0.1 0.1 1</ambient>
+          <diffuse>0.1 0.1 0.1 1</diffuse>
+        </material>
+      </visual>
+      
+      <sensor type="camera" name="overhead_camera_sensor">
+        <always_on>true</always_on>
+        <update_rate>30.0</update_rate>
+        <camera name="overhead_camera">
+          <horizontal_fov>1.047</horizontal_fov>
+          <image>
+            <width>640</width>
+            <height>480</height>
+            <format>R8G8B8</format>
+          </image>
+          <clip>
+            <near>0.1</near>
+            <far>10.0</far>
+          </clip>
+        </camera>
+        <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
+          <ros>
+            <remapping>~/image_raw:=/overhead_camera/image_raw</remapping>
+            <remapping>~/camera_info:=/overhead_camera/camera_info</remapping>
+          </ros>
+          <camera_name>overhead_camera</camera_name>
+          <frame_name>world</frame_name>
+        </plugin>
+      </sensor>
+    </link>
+  </model>
+</sdf>

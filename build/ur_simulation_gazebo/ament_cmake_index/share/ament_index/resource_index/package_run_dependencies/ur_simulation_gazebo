@@ -1,0 +1,1 @@
+controller_manager;gazebo_ros2_control;gazebo_ros;geometry_msgs;joint_state_broadcaster;launch;launch_ros;moveit_msgs;rclpy;robot_state_publisher;rviz2;shape_msgs;ur_controllers;ur_description;ur_moveit_config;urdf;xacro;ament_cmake_pytest;launch_testing_ament_cmake;launch_testing_ros

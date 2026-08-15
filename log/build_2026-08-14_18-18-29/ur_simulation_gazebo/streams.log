@@ -1,0 +1,46 @@
+[0.090s] Invoking command in '/home/gurshh/ur_ws/build/ur_simulation_gazebo': AMENT_PREFIX_PATH=/home/gurshh/ur_ws/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gurshh/ur_ws/install/ur_description:/opt/ros/humble /usr/bin/cmake --build /home/gurshh/ur_ws/build/ur_simulation_gazebo -- -j12 -l12
+[0.213s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.373s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.401s] -- Found launch_testing_ament_cmake: 1.0.14 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[0.401s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.427s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.428s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.428s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.429s] -- Found ament_cmake_pytest: 1.3.14 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[0.517s] -- Configuring done
+[0.527s] -- Generating done
+[0.530s] -- Build files have been written to: /home/gurshh/ur_ws/build/ur_simulation_gazebo
+[0.556s] Invoked command in '/home/gurshh/ur_ws/build/ur_simulation_gazebo' returned '0': AMENT_PREFIX_PATH=/home/gurshh/ur_ws/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gurshh/ur_ws/install/ur_description:/opt/ros/humble /usr/bin/cmake --build /home/gurshh/ur_ws/build/ur_simulation_gazebo -- -j12 -l12
+[0.571s] Invoking command in '/home/gurshh/ur_ws/build/ur_simulation_gazebo': AMENT_PREFIX_PATH=/home/gurshh/ur_ws/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gurshh/ur_ws/install/ur_description:/opt/ros/humble /usr/bin/cmake --install /home/gurshh/ur_ws/build/ur_simulation_gazebo
+[0.583s] -- Install configuration: ""
+[0.584s] -- Execute custom install script
+[0.585s] -- Up-to-date symlink: /home/gurshh/ur_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/config/moveit_controllers.yaml
+[0.585s] -- Up-to-date symlink: /home/gurshh/ur_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/config/ur_controllers.yaml
+[0.586s] -- Up-to-date symlink: /home/gurshh/ur_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/launch/ur_sim_control.launch.py
+[0.586s] -- Up-to-date symlink: /home/gurshh/ur_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/launch/ur_sim_moveit.launch.py
+[0.587s] -- Up-to-date symlink: /home/gurshh/ur_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/worlds/table_boxes.world
+[0.587s] -- Up-to-date symlink: /home/gurshh/ur_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/urdf/environment.urdf.xacro
+[0.588s] -- Up-to-date symlink: /home/gurshh/ur_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/urdf/overhead_camera.urdf.xacro
+[0.588s] -- Up-to-date symlink: /home/gurshh/ur_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/urdf/ur.urdf.xacro
+[0.589s] -- Up-to-date symlink: /home/gurshh/ur_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/models/box_detector.pt
+[0.590s] -- Up-to-date symlink: /home/gurshh/ur_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/scripts/xacro_no_comments.bash
+[0.590s] -- Up-to-date symlink: /home/gurshh/ur_ws/install/ur_simulation_gazebo/lib/ur_simulation_gazebo/spawn_planning_scene.py
+[0.590s] -- Up-to-date symlink: /home/gurshh/ur_ws/install/ur_simulation_gazebo/lib/ur_simulation_gazebo/yolo_detector.py
+[0.591s] -- Up-to-date symlink: /home/gurshh/ur_ws/install/ur_simulation_gazebo/lib/ur_simulation_gazebo/generate_yolo_dataset.py
+[0.591s] -- Symlinking: /home/gurshh/ur_ws/install/ur_simulation_gazebo/lib/ur_simulation_gazebo/pick_panel.py
+[0.605s] -- Up-to-date symlink: /home/gurshh/ur_ws/install/ur_simulation_gazebo/share/ament_index/resource_index/package_run_dependencies/ur_simulation_gazebo
+[0.606s] -- Up-to-date symlink: /home/gurshh/ur_ws/install/ur_simulation_gazebo/share/ament_index/resource_index/parent_prefix_path/ur_simulation_gazebo
+[0.606s] -- Up-to-date symlink: /home/gurshh/ur_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/environment/ament_prefix_path.sh
+[0.607s] -- Up-to-date symlink: /home/gurshh/ur_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/environment/ament_prefix_path.dsv
+[0.607s] -- Up-to-date symlink: /home/gurshh/ur_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/environment/path.sh
+[0.608s] -- Up-to-date symlink: /home/gurshh/ur_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/environment/path.dsv
+[0.608s] -- Up-to-date symlink: /home/gurshh/ur_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/local_setup.bash
+[0.609s] -- Up-to-date symlink: /home/gurshh/ur_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/local_setup.sh
+[0.609s] -- Up-to-date symlink: /home/gurshh/ur_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/local_setup.zsh
+[0.610s] -- Up-to-date symlink: /home/gurshh/ur_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/local_setup.dsv
+[0.610s] -- Symlinking: /home/gurshh/ur_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.dsv
+[0.623s] -- Up-to-date symlink: /home/gurshh/ur_ws/install/ur_simulation_gazebo/share/ament_index/resource_index/packages/ur_simulation_gazebo
+[0.624s] -- Up-to-date symlink: /home/gurshh/ur_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/cmake/ur_simulation_gazeboConfig.cmake
+[0.624s] -- Up-to-date symlink: /home/gurshh/ur_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/cmake/ur_simulation_gazeboConfig-version.cmake
+[0.624s] -- Up-to-date symlink: /home/gurshh/ur_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.xml
+[0.628s] Invoked command in '/home/gurshh/ur_ws/build/ur_simulation_gazebo' returned '0': AMENT_PREFIX_PATH=/home/gurshh/ur_ws/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gurshh/ur_ws/install/ur_description:/opt/ros/humble /usr/bin/cmake --install /home/gurshh/ur_ws/build/ur_simulation_gazebo
